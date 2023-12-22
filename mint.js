@@ -5,7 +5,7 @@ import { ApiPromise, WsProvider, Keyring } from '@polkadot/api';
     let polkadotlWSS = "input polkadot wss"
     let mintNumber = 100
     let remarkData = '{"p":"dot-20","op":"mint","tick":"DOTA"}'
-    let subscan = 'https://polkadot.subscan.io/extrinsic/'
+    let subscan = 'https://polkadot.subscan.io/block/'
     const polkadotProvider = new WsProvider(polkadotlWSS);
     const polkadotApi = await ApiPromise.create({provider: polkadotProvider});
     let joey = (new Keyring({type: 'sr25519'})).addFromMnemonic(mnemonic)
