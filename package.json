@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "description": "polkadot mint",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joey",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^10.11.2"
+  },
+  "type": "module",
+  "main": "index.js",
+  "name": "inscribe"
+}
